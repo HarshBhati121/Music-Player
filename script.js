@@ -165,5 +165,7 @@ async function main() {
         
         currentSong.volume=parseInt(e.target.value)/100;
     })
+
+    console.log("hello world");
 }
 main()  
