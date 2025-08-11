@@ -1,0 +1,46 @@
+
+.border{
+    border: 2px solid black;
+    margin: 3px;
+}
+
+.flex{
+    display: flex;
+}
+.justify-content{
+    justify-content: center;
+}
+.items-center{
+    align-items: center;
+}
+.rounded{
+    border-radius: 10px;
+}
+.p-1{
+    padding:15px;
+    
+}
+.m-1{
+    margin:5px;
+}
+
+/* Works for WebKit browsers (Chrome, Edge, Safari) */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px; /* for horizontal scroll */
+}
+
+::-webkit-scrollbar-track {
+  background: #1e1e1e; /* Dark background for track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #444; /* Thumb (scroll block) color */
+  border-radius: 6px;
+  border: 2px solid #1e1e1e; /* Adds spacing between track and thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #666; /* On hover */
+}
+
